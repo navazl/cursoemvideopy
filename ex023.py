@@ -1,0 +1,7 @@
+num = int(input('Informe um número: '))
+print(f'Analisando o número: {num}')
+num = str(num)
+print(f'Unidade: {(num[0])}')
+print(f'Dezena: {(num[1])}')
+print(f'Centena: {(num[2])}')
+print(f'Milhar: {(num[3])}')
