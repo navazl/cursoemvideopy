@@ -29,7 +29,7 @@ print(f'A média de idade é {média:.2f} anos.')
 print(f'Lista de mulheres é ', end='')
 for v in cadastros:
     if v['sexo'] == 'F':
-        print(f'{v["nome"]}', end='')
+        print(f'{v["nome"]} ', end='')
 
 print()
 
